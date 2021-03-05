@@ -6,7 +6,7 @@ The purpose is to demonstrate the X2Cscope tool features like run-time watch and
 
 The code functionality is minimalistic in order to avoid unneceseary confusion. It is generating internally a digital sawtooth and a sine signal. There is LED1 that is blinking with the sawtooth signal's period. The LED2 can be controlled manually by the X2Cscope tool. The state of the SW1 can be read out by X2Cscope.
 
-![HW setup](doc/LVMC_Blinky_Connectors.gif)
+![HW setup](doc/Hardware.gif)
 ![X2Cscope](doc/Scope_Animated.gif)
 
 ## Getting Started
