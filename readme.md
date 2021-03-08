@@ -4,7 +4,7 @@ This is a X2Cscope demo project for [X2C+ Development board](http://x2c.microsti
 
 The purpose is to demonstrate the [X2Cscope firmware based debugger tool](https://x2cscope.github.io/) features like run-time watch and scope views.
 
-The code functionality is minimalistic in order to avoid unneceseary confusion. It is generating internally a digital sawtooth and a sine signal. There is LED1 that is blinking with the sawtooth signal's period. The LED2 can be controlled manually by the [X2Cscope run-time debugger tool](https://x2cscope.github.io/). The state of the SW1 can be read out by X2Cscope.
+The code functionality is minimalistic in order to avoid unneceseary confusion. The firmware generates a digital sawtooth and a sine signal. There is LED1 that is blinking with the sawtooth signal's period. The LED2 can be controlled manually by the [X2Cscope run-time debugger tool](https://x2cscope.github.io/). The state of the SW1 can be read out by X2Cscope.
 
 ![HW setup](doc/Hardware.gif)
 ![X2Cscope](doc/Scope_Animated.gif)
@@ -17,12 +17,12 @@ The demo is ready to use with the [listed hardwares below](#hardware).
 2. [Connect Hardware](#connectors-used).
 3. Open project with MPLAB X
 4. Build project
-5. Program the HW with the PICkit on board
-6. Verify if LED1 is blinking
+5. Program the Hardware (HW) with the PICkit on board
+6. Verify LED1 is blinking
 
 ## Use X2Cscope
 
-The X2Cscope tool using the UART to transfer data from and to the HW. To use this feature follow the steps:
+The X2Cscope tool uses the UART to transfer data from and to the HW. To use this feature follow the steps:
 
 1. Verify if X2Cscope plug-in is installed within MPLAB X. Detailed user guide: https://x2cscope.github.io/
 2. Open X2Cscope 
@@ -31,11 +31,11 @@ The X2Cscope tool using the UART to transfer data from and to the HW. To use thi
 
 3. Verify UART settings at the Connection Setup tab and also check the COM port number on the PC. (device manager)
 
-4. Connect to the HW with clicking on the connect sign: 
+4. Connect to the HW with clicking on the connect sign:
 
 ![Open Button](doc/Connect_X2Cscope.png)
 
-6. Use the data views
+6. Use the Watch and Scope data views (available on the Data Views tab).
 
 ## Hardware
 
